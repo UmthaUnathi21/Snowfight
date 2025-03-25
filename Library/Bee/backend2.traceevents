@@ -1,0 +1,379 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1742934085210833, "dur":15048, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085225886, "dur":116, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085226058, "dur":383, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085227267, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742934085229114, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742934085229981, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1742934085226458, "dur":3852, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085230311, "dur":300572, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085530886, "dur":224, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085531329, "dur":1904, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1742934085226545, "dur":3809, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742934085230359, "dur":547, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085230359, "dur":1603, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742934085231962, "dur":1121, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742934085233084, "dur":6086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742934085239187, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742934085240239, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1742934085243412, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1742934085246158, "dur":8620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1742934085254911, "dur":17767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1742934085272733, "dur":8408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085281157, "dur":5887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085287060, "dur":69295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085356410, "dur":27568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085384050, "dur":58171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085442250, "dur":49573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085491835, "dur":36262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742934085528099, "dur":2782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085226510, "dur":3822, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085233052, "dur":694, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1742934085233747, "dur":4085, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1742934085237834, "dur":84, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":2, "ts":1742934085237918, "dur":943, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1742934085238861, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":2, "ts":1742934085238915, "dur":104, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239020, "dur":101, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1742934085230337, "dur":8830, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239176, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/18355648796637028939.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239267, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239636, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239716, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239832, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239909, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085240046, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085240184, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085240260, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085240522, "dur":497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085241024, "dur":852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085241881, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085241968, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085242022, "dur":546, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085242570, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085242622, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085242892, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085242962, "dur":639, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085243652, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085243720, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085243907, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085243980, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085244198, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085244249, "dur":730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085244982, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085245045, "dur":412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085245463, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085245646, "dur":644, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085246292, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085246648, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085246735, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085247629, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":2, "ts":1742934085247795, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":2, "ts":1742934085239342, "dur":8866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/umtha/Unity Games/Snowfight/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1742934085248209, "dur":10437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085262646, "dur":5706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1742934085268354, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742934085269178, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085271600, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085278979, "dur":47932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085334086, "dur":22309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085356428, "dur":27555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085384053, "dur":58444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085442511, "dur":49191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085491715, "dur":35975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085527707, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742934085530283, "dur":626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085226574, "dur":3793, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085230968, "dur":511, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Web.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085230372, "dur":1671, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085232043, "dur":940, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085232984, "dur":6185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085239177, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1742934085239928, "dur":504, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1742934085240499, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1742934085240758, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085241115, "dur":768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085241885, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085242010, "dur":540, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085242552, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085242612, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085242892, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085242957, "dur":627, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085243589, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085243648, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085243717, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085243900, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085243976, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085244185, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085244243, "dur":729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085244978, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085245031, "dur":453, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085245486, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085245749, "dur":537, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085246289, "dur":348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085246643, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085246764, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\umtha\\Unity Games\\Snowfight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085247628, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player3e56d324-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1742934085240434, "dur":7327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742934085248217, "dur":105, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742934085248729, "dur":198873, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742934085457130, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742934085457065, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742934085457201, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742934085457901, "dur":33853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085491768, "dur":31923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085523732, "dur":6495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742934085530229, "dur":686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742934085226539, "dur":3802, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742934085230348, "dur":1953, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742934085232301, "dur":1302, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742934085233603, "dur":5584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742934085239188, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1742934085241558, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1742934085246173, "dur":35050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085281286, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085287054, "dur":58171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085345253, "dur":22559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085367828, "dur":21976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085389825, "dur":73108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085462958, "dur":39003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085501981, "dur":26025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085528021, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742934085530566, "dur":320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085226601, "dur":3783, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085230388, "dur":1518, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085231906, "dur":976, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085232882, "dur":761, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085233643, "dur":5530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085239176, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1742934085242377, "dur":6195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1742934085248768, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1742934085251046, "dur":11306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1742934085262475, "dur":171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742934085262647, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085265462, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085275239, "dur":7586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085282843, "dur":19641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085302501, "dur":31587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085334109, "dur":12841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085346962, "dur":25036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085372018, "dur":18089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085390124, "dur":72727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085462873, "dur":39485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085502373, "dur":25755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742934085528130, "dur":2759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085226626, "dur":3767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085230395, "dur":1491, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085231887, "dur":933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085232820, "dur":901, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085233721, "dur":5468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742934085239190, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1742934085241689, "dur":3665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1742934085245393, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085246399, "dur":29701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085276175, "dur":6706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085282904, "dur":89309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085372230, "dur":56175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085428438, "dur":51082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085479537, "dur":35430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085514977, "dur":14948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742934085529927, "dur":978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085226653, "dur":3758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085230420, "dur":1538, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085231959, "dur":934, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085232893, "dur":6342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085239235, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1742934085240905, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1742934085243860, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1742934085246735, "dur":8437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1742934085255244, "dur":8777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1742934085264066, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085264872, "dur":10399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085275286, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085282383, "dur":16646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085299043, "dur":39934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085338990, "dur":17380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085428210, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742934085356420, "dur":71917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085428368, "dur":34495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085462875, "dur":39435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085502325, "dur":25694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742934085528021, "dur":2863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085226677, "dur":3751, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085230434, "dur":1381, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085231816, "dur":961, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085232778, "dur":980, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085233758, "dur":5428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085239187, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1742934085240644, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1742934085243699, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1742934085245949, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085246407, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085251057, "dur":11306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1742934085262441, "dur":1131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742934085263574, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085264788, "dur":10823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085275624, "dur":7061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085282720, "dur":56204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085338948, "dur":14727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085353689, "dur":18305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085372018, "dur":18111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085390146, "dur":72792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085462956, "dur":28732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085491703, "dur":23146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085514862, "dur":15010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742934085529873, "dur":1034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085226700, "dur":3741, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085230445, "dur":1499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085231944, "dur":977, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085232922, "dur":6345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085239268, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1742934085242953, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1742934085246153, "dur":8211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1742934085254470, "dur":6172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1742934085260699, "dur":1948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742934085262648, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085264669, "dur":10271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085274967, "dur":6196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085281175, "dur":5863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085287057, "dur":46991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085334074, "dur":16800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085350899, "dur":21229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085372148, "dur":56204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085428370, "dur":51153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085479539, "dur":35339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085514895, "dur":14960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742934085529858, "dur":1022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085226723, "dur":3732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085230459, "dur":1279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085231738, "dur":959, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085232697, "dur":996, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085233694, "dur":5569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742934085239266, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1742934085242761, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1742934085246030, "dur":221504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742934085467585, "dur":34706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742934085502306, "dur":26789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742934085529098, "dur":1792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742934085226751, "dur":3719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742934085231741, "dur":1191, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Data\\il2cpp\\build\\deploy\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085230475, "dur":2556, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742934085233031, "dur":6161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742934085239195, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1742934085240917, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1742934085244860, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight.exe" }}
+,{ "pid":12345, "tid":11, "ts":1742934085248852, "dur":10736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1742934085259660, "dur":3402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742934085263063, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085264906, "dur":16283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085281206, "dur":14385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085295612, "dur":38471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085334099, "dur":22306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085356491, "dur":27499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085384050, "dur":50348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085434448, "dur":57268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085491734, "dur":36266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085528017, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742934085530508, "dur":390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085226779, "dur":3704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085230487, "dur":1352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085231841, "dur":874, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085232715, "dur":976, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085233691, "dur":5488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085239183, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1742934085241728, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1742934085244443, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1742934085246120, "dur":4566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1742934085250752, "dur":9753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1742934085260587, "dur":2097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742934085262686, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085264883, "dur":14232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085279143, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085284141, "dur":18463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085302626, "dur":31452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085334107, "dur":12995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085347122, "dur":25042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085372179, "dur":56163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085428366, "dur":42576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085470968, "dur":37801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742934085508782, "dur":22070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085226798, "dur":3703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742934085230507, "dur":1476, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742934085231984, "dur":914, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742934085232899, "dur":6285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742934085239185, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1742934085240816, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1742934085243385, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1742934085246359, "dur":34099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1742934085280513, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085287073, "dur":51863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085338984, "dur":28817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085367827, "dur":16161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085384050, "dur":50344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085434416, "dur":45076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085479529, "dur":35370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085514914, "dur":14984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742934085529899, "dur":1011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085226820, "dur":3908, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085230731, "dur":1138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085231871, "dur":908, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085232779, "dur":916, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085233695, "dur":5504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085239219, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1742934085241562, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1742934085244680, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1742934085246871, "dur":12626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1742934085259559, "dur":3336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742934085262897, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085264633, "dur":10912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085275557, "dur":7096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085282679, "dur":44186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085326877, "dur":12054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085338949, "dur":14914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085353900, "dur":18255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085372173, "dur":56159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085428366, "dur":42584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085470969, "dur":43885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085514866, "dur":14947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742934085529815, "dur":1089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085226839, "dur":3917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085230761, "dur":1059, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085231821, "dur":882, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085232703, "dur":947, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085233651, "dur":5545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742934085239198, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1742934085243660, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1742934085246694, "dur":28113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1742934085274881, "dur":12169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085287065, "dur":11967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085300378, "dur":23929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085324328, "dur":14766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085339111, "dur":28705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085367829, "dur":21883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085389730, "dur":73165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085462953, "dur":28712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085491684, "dur":32049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085523747, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742934085530071, "dur":820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742934085226868, "dur":3906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742934085230917, "dur":560, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085230776, "dur":1477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742934085232254, "dur":900, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742934085233155, "dur":6033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742934085239189, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_Corrected/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1742934085242176, "dur":4539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1742934085246778, "dur":11108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1742934085257950, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1742934085265270, "dur":13205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085278515, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085283791, "dur":18795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085302602, "dur":24230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085326849, "dur":12137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085339001, "dur":28803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085367827, "dur":21748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085389616, "dur":73371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085463002, "dur":45850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085508863, "dur":20270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_Corrected/Snowfight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742934085529135, "dur":1752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742934085536599, "dur":698, "ph":"X", "name": "ProfilerWriteOutput" }
+,
